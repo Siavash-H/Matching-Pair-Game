@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             tableLayoutPanel1 = new TableLayoutPanel();
             label16 = new Label();
             label15 = new Label();
@@ -45,6 +46,7 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -84,7 +86,6 @@
             tableLayoutPanel1.Size = new Size(534, 511);
             tableLayoutPanel1.TabIndex = 0;
             tableLayoutPanel1.Click += label_Click;
-            //tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
             // label16
             // 
@@ -309,5 +310,6 @@
         private Label label4;
         private Label label3;
         private Label label2;
+        private System.Windows.Forms.Timer timer1;
     }
 }

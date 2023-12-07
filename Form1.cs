@@ -36,27 +36,6 @@ namespace  MatcingGame
             }
         }
 
-        private void label_Click(object sender, EventArgs e)
-        {
-            Label clickLable = sender as Label;
-            if (clickLable != null)
-            {
-                if (clickLable.ForeColor == Color.Black)
-                {
-                    return;
-
-                if(firstClick == null)
-                { 
-                    firstClick = clickLable;
-                    firstClick.ForeColor = Color.Black;
-                        return;
-
-                }
-                }
-            }
-        }
-
-
 
 
         public Game()
@@ -65,5 +44,68 @@ namespace  MatcingGame
             InitializeComponent();
             AssignRandomTobox();
         }
+
+        private void label_Click(object sender, EventArgs e)
+        {
+            if (timer1.Enabled)
+            { return; }
+
+            Label clickLable = sender as Label;
+            if (clickLable != null)
+            {
+                if (clickLable.ForeColor == Color.Black)
+                    return;
+
+                if(firstClick == null)
+                    { 
+                    firstClick = clickLable;
+                    firstClick.ForeColor = Color.Black;
+                        return;
+
+                    }
+                
+                secondClick = clickLable;
+                secondClick.ForeColor = Color.Black;
+
+
+                CheckWinner();
+                if (firstClick.Text == secondClick.Text )
+                {
+                    firstClick = null;
+                    secondClick = null;
+                    return;
+                }
+                timer1.Start();
+            }
+        }
+
+        private void timer1_tick()
+        {
+            
+            timer1.Stop();
+            firstClick.ForeColor = firstClick.BackColor;
+            secondClick.ForeColor = secondClick.BackColor;
+            firstClick = null;
+            secondClick = null;
+
+        }
+
+        private void CheckWinner()
+        {
+            foreach (Control control in tableLayoutPanel1.Controls)
+            {
+                Label iconlabel = control as Label;
+                if (iconlabel != null)
+                {
+                    if (iconlabel.ForeColor == iconlabel.BackColor)
+                        return;
+                }
+            }
+            MessageBox.Show("yeap that was it.");
+            Close();
+        }
+
+
+
     }
 }

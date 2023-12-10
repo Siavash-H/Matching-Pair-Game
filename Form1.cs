@@ -1,7 +1,7 @@
-
-
-
-
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
 
 
 namespace  MatcingGame
@@ -17,7 +17,13 @@ namespace  MatcingGame
             { "!","!","n","n","M","M","k","K",
               "W","W","L","L","S","S","R","R"
             };
-        
+
+        public Game()
+        {
+            //label_Click(object );
+            InitializeComponent();
+            AssignRandomTobox();
+        }
 
         private void AssignRandomTobox()
         {
@@ -36,32 +42,23 @@ namespace  MatcingGame
             }
         }
 
-
-
-        public Game()
-        {
-            //label_Click(object );
-            InitializeComponent();
-            AssignRandomTobox();
-        }
-
         private void label_Click(object sender, EventArgs e)
         {
-            if (timer1.Enabled)
-            { return; }
+            if (timer1.Enabled == true)
+             return; 
 
-            Label clickLable = sender as Label;
+            Label? clickLable = sender as Label;
             if (clickLable != null)
             {
                 if (clickLable.ForeColor == Color.Black)
                     return;
 
+                clickLable.ForeColor = Color.Black;
                 if(firstClick == null)
                     { 
                     firstClick = clickLable;
                     firstClick.ForeColor = Color.Black;
-                        return;
-
+                    return;
                     }
                 
                 secondClick = clickLable;
@@ -79,7 +76,7 @@ namespace  MatcingGame
             }
         }
 
-        private void timer1_tick()
+        private void Timer1_tick()
         {
             
             timer1.Stop();

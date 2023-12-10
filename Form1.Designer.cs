@@ -90,7 +90,7 @@
             // label16
             // 
             label16.Dock = DockStyle.Fill;
-            label16.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label16.Location = new Point(402, 384);
             label16.Name = "label16";
             label16.Size = new Size(126, 124);
@@ -102,7 +102,7 @@
             // label15
             // 
             label15.Dock = DockStyle.Fill;
-            label15.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label15.Location = new Point(270, 384);
             label15.Name = "label15";
             label15.Size = new Size(123, 124);
@@ -114,7 +114,7 @@
             // label14
             // 
             label14.Dock = DockStyle.Fill;
-            label14.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label14.Location = new Point(138, 384);
             label14.Name = "label14";
             label14.Size = new Size(123, 124);
@@ -126,7 +126,7 @@
             // label13
             // 
             label13.Dock = DockStyle.Fill;
-            label13.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label13.Location = new Point(6, 384);
             label13.Name = "label13";
             label13.Size = new Size(123, 124);
@@ -138,7 +138,7 @@
             // label12
             // 
             label12.Dock = DockStyle.Fill;
-            label12.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label12.Location = new Point(402, 257);
             label12.Name = "label12";
             label12.Size = new Size(126, 124);
@@ -150,7 +150,7 @@
             // label11
             // 
             label11.Dock = DockStyle.Fill;
-            label11.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label11.Location = new Point(270, 257);
             label11.Name = "label11";
             label11.Size = new Size(123, 124);
@@ -162,7 +162,7 @@
             // label10
             // 
             label10.Dock = DockStyle.Fill;
-            label10.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label10.Location = new Point(138, 257);
             label10.Name = "label10";
             label10.Size = new Size(123, 124);
@@ -174,7 +174,7 @@
             // label9
             // 
             label9.Dock = DockStyle.Fill;
-            label9.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label9.Location = new Point(6, 257);
             label9.Name = "label9";
             label9.Size = new Size(123, 124);
@@ -186,7 +186,7 @@
             // label8
             // 
             label8.Dock = DockStyle.Fill;
-            label8.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label8.Location = new Point(402, 130);
             label8.Name = "label8";
             label8.Size = new Size(126, 124);
@@ -198,7 +198,7 @@
             // label7
             // 
             label7.Dock = DockStyle.Fill;
-            label7.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label7.Location = new Point(270, 130);
             label7.Name = "label7";
             label7.Size = new Size(123, 124);
@@ -210,7 +210,7 @@
             // label6
             // 
             label6.Dock = DockStyle.Fill;
-            label6.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label6.Location = new Point(138, 130);
             label6.Name = "label6";
             label6.Size = new Size(123, 124);
@@ -222,7 +222,7 @@
             // label5
             // 
             label5.Dock = DockStyle.Fill;
-            label5.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label5.Location = new Point(6, 130);
             label5.Name = "label5";
             label5.Size = new Size(123, 124);
@@ -234,7 +234,7 @@
             // label4
             // 
             label4.Dock = DockStyle.Fill;
-            label4.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(402, 3);
             label4.Name = "label4";
             label4.Size = new Size(126, 124);
@@ -246,7 +246,7 @@
             // label3
             // 
             label3.Dock = DockStyle.Fill;
-            label3.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(270, 3);
             label3.Name = "label3";
             label3.Size = new Size(123, 124);
@@ -258,7 +258,7 @@
             // label2
             // 
             label2.Dock = DockStyle.Fill;
-            label2.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label2.Location = new Point(138, 3);
             label2.Name = "label2";
             label2.Size = new Size(123, 124);
@@ -270,7 +270,7 @@
             // label1
             // 
             label1.Dock = DockStyle.Fill;
-            label1.Font = new Font("Webdings", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Webdings", 36F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(6, 3);
             label1.Name = "label1";
             label1.Size = new Size(123, 124);
@@ -278,6 +278,10 @@
             label1.Text = "c";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             label1.Click += label_Click;
+            // 
+            // timer1
+            // 
+            timer1.Interval = 1;
             // 
             // Game
             // 
